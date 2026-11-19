@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T10:59:16+00:00",
+ "updated": "2026-11-19T19:28:02+00:00",
  "stats": {
   "n": 0,
   "status": "NO DATA"
@@ -8,10 +8,68 @@
  "by_symbol": {},
  "counts": {
   "CLOSED": 0,
-  "OPEN": 0,
-  "WAITING": 0,
+  "OPEN": 1,
+  "WAITING": 2,
   "CANCELLED": 0
  },
  "assumptions": "Simulasi konservatif (stop dulu bila ambigu), fee/slippage kasar, entry pending kedaluwarsa. Bukan hasil eksekusi nyata.",
- "trades": []
+ "trades": [
+  {
+   "signal_id": "29272d46a9bb",
+   "asof": "2026-11-19T19:27:37+00:00",
+   "symbol": "ETH/USDT",
+   "direction": "SHORT",
+   "trigger": "deviation_reclaim",
+   "tf": "1h",
+   "entry": 1787.11,
+   "stop": 1799.6197699999998,
+   "tp1": 1750.63,
+   "tp2": 1732.83,
+   "score": 6.0,
+   "status": "WAITING",
+   "outcome": "",
+   "r": null,
+   "fill_time": null,
+   "exit_time": null,
+   "reason": ""
+  },
+  {
+   "signal_id": "0665eec9c599",
+   "asof": "2026-11-19T19:27:37+00:00",
+   "symbol": "XRP/USDT",
+   "direction": "SHORT",
+   "trigger": "deviation_reclaim",
+   "tf": "1h",
+   "entry": 0.9769,
+   "stop": 0.9837383,
+   "tp1": 0.9607,
+   "tp2": 0.9548,
+   "score": 7.0,
+   "status": "WAITING",
+   "outcome": "",
+   "r": null,
+   "fill_time": null,
+   "exit_time": null,
+   "reason": ""
+  },
+  {
+   "signal_id": "ae16dae6050a",
+   "asof": "2026-11-19T19:27:37+00:00",
+   "symbol": "AXS/USDT",
+   "direction": "SHORT",
+   "trigger": "breakout_retest",
+   "tf": "1h",
+   "entry": 0.667,
+   "stop": 0.6728081425236733,
+   "tp1": 0.654,
+   "tp2": 0.6495755724289803,
+   "score": 9.0,
+   "status": "OPEN",
+   "outcome": "",
+   "r": -0.1148,
+   "fill_time": "2026-11-19 19:27:37+00:00",
+   "exit_time": null,
+   "reason": ""
+  }
+ ]
 }
