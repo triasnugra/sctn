@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T00:46:22+00:00",
+ "updated": "2026-11-21T08:13:24+00:00",
  "stats": {
   "n": 1,
   "status": "UNVERIFIABLE",
@@ -50,8 +50,8 @@
  "counts": {
   "CLOSED": 1,
   "OPEN": 0,
-  "WAITING": 2,
-  "CANCELLED": 4
+  "WAITING": 0,
+  "CANCELLED": 6
  },
  "assumptions": "Simulasi konservatif (stop dulu bila ambigu), fee/slippage kasar, entry pending kedaluwarsa. Bukan hasil eksekusi nyata.",
  "trades": [
@@ -162,12 +162,12 @@
    "tp1": 67.15,
    "tp2": 66.90524500000001,
    "score": 6.0,
-   "status": "WAITING",
+   "status": "CANCELLED",
    "outcome": "",
    "r": null,
    "fill_time": null,
    "exit_time": null,
-   "reason": ""
+   "reason": "TP1 tercapai sebelum entry terisi"
   },
   {
    "signal_id": "92b0bbb72b87",
@@ -181,12 +181,12 @@
    "tp1": 0.918,
    "tp2": 0.8842,
    "score": 6.0,
-   "status": "WAITING",
+   "status": "CANCELLED",
    "outcome": "",
    "r": null,
    "fill_time": null,
    "exit_time": null,
-   "reason": ""
+   "reason": "TP1 tercapai sebelum entry terisi"
   }
  ]
 }
