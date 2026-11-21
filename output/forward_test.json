@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T18:31:34+00:00",
+ "updated": "2026-11-21T00:46:22+00:00",
  "stats": {
   "n": 1,
   "status": "UNVERIFIABLE",
@@ -50,8 +50,8 @@
  "counts": {
   "CLOSED": 1,
   "OPEN": 0,
-  "WAITING": 1,
-  "CANCELLED": 3
+  "WAITING": 2,
+  "CANCELLED": 4
  },
  "assumptions": "Simulasi konservatif (stop dulu bila ambigu), fee/slippage kasar, entry pending kedaluwarsa. Bukan hasil eksekusi nyata.",
  "trades": [
@@ -142,6 +142,44 @@
    "stop": 70.41951,
    "tp1": 67.8,
    "tp2": 67.555245,
+   "score": 6.0,
+   "status": "CANCELLED",
+   "outcome": "",
+   "r": null,
+   "fill_time": null,
+   "exit_time": null,
+   "reason": "TP1 tercapai sebelum entry terisi"
+  },
+  {
+   "signal_id": "6692b23c20db",
+   "asof": "2026-11-21T00:45:56+00:00",
+   "symbol": "SOL/USDT",
+   "direction": "SHORT",
+   "trigger": "breakout_retest",
+   "tf": "15m",
+   "entry": 69.93,
+   "stop": 70.41951,
+   "tp1": 67.15,
+   "tp2": 66.90524500000001,
+   "score": 6.0,
+   "status": "WAITING",
+   "outcome": "",
+   "r": null,
+   "fill_time": null,
+   "exit_time": null,
+   "reason": ""
+  },
+  {
+   "signal_id": "92b0bbb72b87",
+   "asof": "2026-11-21T00:45:56+00:00",
+   "symbol": "XRP/USDT",
+   "direction": "SHORT",
+   "trigger": "breakout_retest",
+   "tf": "1h",
+   "entry": 0.9424,
+   "stop": 0.9489968,
+   "tp1": 0.918,
+   "tp2": 0.8842,
    "score": 6.0,
    "status": "WAITING",
    "outcome": "",
