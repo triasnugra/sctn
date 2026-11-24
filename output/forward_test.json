@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T21:13:07+00:00",
+ "updated": "2026-11-24T05:54:34+00:00",
  "stats": {
   "n": 1,
   "status": "UNVERIFIABLE",
@@ -49,9 +49,9 @@
  },
  "counts": {
   "CLOSED": 1,
-  "OPEN": 1,
-  "WAITING": 3,
-  "CANCELLED": 7
+  "OPEN": 2,
+  "WAITING": 0,
+  "CANCELLED": 10
  },
  "assumptions": "Simulasi konservatif (stop dulu bila ambigu), fee/slippage kasar, entry pending kedaluwarsa. Bukan hasil eksekusi nyata.",
  "trades": [
@@ -219,12 +219,12 @@
    "tp1": 1715.37,
    "tp2": 1707.4930427556822,
    "score": 9.0,
-   "status": "WAITING",
+   "status": "CANCELLED",
    "outcome": "",
    "r": null,
    "fill_time": null,
    "exit_time": null,
-   "reason": ""
+   "reason": "TP1 tercapai sebelum entry terisi"
   },
   {
    "signal_id": "0fdc1e050eb7",
@@ -240,7 +240,7 @@
    "score": 8.0,
    "status": "OPEN",
    "outcome": "",
-   "r": -0.0984,
+   "r": 1.1444,
    "fill_time": "2026-11-23 21:12:38+00:00",
    "exit_time": null,
    "reason": ""
@@ -257,12 +257,12 @@
    "tp1": 0.9424,
    "tp2": 0.9346,
    "score": 6.0,
-   "status": "WAITING",
+   "status": "CANCELLED",
    "outcome": "",
    "r": null,
    "fill_time": null,
    "exit_time": null,
-   "reason": ""
+   "reason": "TP1 tercapai sebelum entry terisi"
   },
   {
    "signal_id": "219eea412fa4",
@@ -276,10 +276,29 @@
    "tp1": 0.05636,
    "tp2": 0.056157,
    "score": 7.0,
-   "status": "WAITING",
+   "status": "CANCELLED",
    "outcome": "",
    "r": null,
    "fill_time": null,
+   "exit_time": null,
+   "reason": "TP1 tercapai sebelum entry terisi"
+  },
+  {
+   "signal_id": "fcd4b8164974",
+   "asof": "2026-11-24T05:54:12+00:00",
+   "symbol": "BTC/USDT",
+   "direction": "SHORT",
+   "trigger": "deviation_reclaim",
+   "tf": "1h",
+   "entry": 60733.03,
+   "stop": 61158.16121,
+   "tp1": 59455.31,
+   "tp2": 59242.744394999994,
+   "score": 7.0,
+   "status": "OPEN",
+   "outcome": "",
+   "r": -0.1429,
+   "fill_time": "2026-11-24 05:54:12+00:00",
    "exit_time": null,
    "reason": ""
   }
