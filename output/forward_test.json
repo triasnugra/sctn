@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-25T02:15:39+00:00",
+ "updated": "2026-11-25T12:36:26+00:00",
  "stats": {
-  "n": 3,
+  "n": 4,
   "status": "UNVERIFIABLE",
-  "wins": 3,
+  "wins": 4,
   "losses": 0,
   "win_rate": 1.0,
-  "avg_r": 2.341466666666667,
-  "std_r": 1.4814356460316909,
-  "total_r": 7.0244,
+  "avg_r": 2.268325,
+  "std_r": 1.218400534512358,
+  "total_r": 9.0733,
   "profit_factor": null,
-  "sqn": 2.7375736784511333,
-  "ci_low": 0.6650644193805992,
-  "ci_high": 4.017868913952734,
+  "sqn": 3.723447151815071,
+  "ci_low": 1.074292476177889,
+  "ci_high": 3.462357523822111,
   "max_drawdown_r": 0.0,
-  "weeks": 0.6335896164021164,
+  "weeks": 0.7025446428571429,
   "best_r": 4.0328,
   "worst_r": 1.274,
   "readiness": {
@@ -38,11 +38,11 @@
    "total_r": 1.274
   },
   "deviation_reclaim": {
-   "n": 2,
+   "n": 3,
    "win_rate": 1.0,
-   "avg_r": 2.8752,
+   "avg_r": 2.599766666666667,
    "profit_factor": null,
-   "total_r": 5.7504
+   "total_r": 7.799300000000001
   }
  },
  "by_symbol": {
@@ -54,11 +54,11 @@
    "total_r": 1.274
   },
   "SOL/USDT": {
-   "n": 1,
+   "n": 2,
    "win_rate": 1.0,
-   "avg_r": 4.0328,
+   "avg_r": 3.04085,
    "profit_factor": null,
-   "total_r": 4.0328
+   "total_r": 6.0817
   },
   "BTC/USDT": {
    "n": 1,
@@ -69,9 +69,9 @@
   }
  },
  "counts": {
-  "CLOSED": 3,
-  "OPEN": 1,
-  "WAITING": 1,
+  "CLOSED": 4,
+  "OPEN": 0,
+  "WAITING": 2,
   "CANCELLED": 11
  },
  "assumptions": "Simulasi konservatif (stop dulu bila ambigu), fee/slippage kasar, entry pending kedaluwarsa. Bukan hasil eksekusi nyata.",
@@ -354,11 +354,11 @@
    "tp1": 68.57,
    "tp2": 67.33809268609465,
    "score": 6.0,
-   "status": "OPEN",
-   "outcome": "",
-   "r": 1.0817,
+   "status": "CLOSED",
+   "outcome": "TP2",
+   "r": 2.0489,
    "fill_time": "2026-11-24 22:30:00+00:00",
-   "exit_time": null,
+   "exit_time": "2026-11-25 09:45:00+00:00",
    "reason": ""
   },
   {
@@ -373,6 +373,25 @@
    "tp1": 0.812,
    "tp2": 0.8086851386077232,
    "score": 7.0,
+   "status": "WAITING",
+   "outcome": "",
+   "r": null,
+   "fill_time": null,
+   "exit_time": null,
+   "reason": ""
+  },
+  {
+   "signal_id": "da6dd273a389",
+   "asof": "2026-11-25T12:35:57+00:00",
+   "symbol": "DOGE/USDT",
+   "direction": "SHORT",
+   "trigger": "deviation_reclaim",
+   "tf": "1h",
+   "entry": 0.05436,
+   "stop": 0.05489403191735929,
+   "tp1": 0.05359,
+   "tp2": 0.05275790424792213,
+   "score": 6.0,
    "status": "WAITING",
    "outcome": "",
    "r": null,
