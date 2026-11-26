@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T14:59:02+00:00",
+ "updated": "2026-11-26T23:43:47+00:00",
  "stats": {
   "n": 5,
   "status": "UNVERIFIABLE",
@@ -71,7 +71,7 @@
  "counts": {
   "CLOSED": 5,
   "OPEN": 0,
-  "WAITING": 0,
+  "WAITING": 1,
   "CANCELLED": 13
  },
  "assumptions": "Simulasi konservatif (stop dulu bila ambigu), fee/slippage kasar, entry pending kedaluwarsa. Bukan hasil eksekusi nyata.",
@@ -416,6 +416,25 @@
    "r": -1.1429,
    "fill_time": "2026-11-25 23:30:00+00:00",
    "exit_time": "2026-11-26 00:00:00+00:00",
+   "reason": ""
+  },
+  {
+   "signal_id": "0fcfc9cddf9e",
+   "asof": "2026-11-26T23:43:11+00:00",
+   "symbol": "TRUMP/USDT",
+   "direction": "SHORT",
+   "trigger": "breakout_retest",
+   "tf": "15m",
+   "entry": 0.866,
+   "stop": 0.872062,
+   "tp1": 0.855,
+   "tp2": 0.812,
+   "score": 7.0,
+   "status": "WAITING",
+   "outcome": "",
+   "r": null,
+   "fill_time": null,
+   "exit_time": null,
    "reason": ""
   }
  ]
