@@ -1,27 +1,27 @@
 {
- "updated": "2026-11-25T22:24:51+00:00",
+ "updated": "2026-11-26T04:55:09+00:00",
  "stats": {
-  "n": 4,
+  "n": 5,
   "status": "UNVERIFIABLE",
   "wins": 4,
-  "losses": 0,
-  "win_rate": 1.0,
-  "avg_r": 2.268325,
-  "std_r": 1.218400534512358,
-  "total_r": 9.0733,
-  "profit_factor": null,
-  "sqn": 3.723447151815071,
-  "ci_low": 1.074292476177889,
-  "ci_high": 3.462357523822111,
-  "max_drawdown_r": 0.0,
-  "weeks": 0.7025446428571429,
+  "losses": 1,
+  "win_rate": 0.8,
+  "avg_r": 1.58608,
+  "std_r": 1.8549032581242613,
+  "total_r": 7.9304,
+  "profit_factor": 7.938839793507743,
+  "sqn": 1.9120041340265297,
+  "ci_low": -0.039814392525861386,
+  "ci_high": 3.2119743925258613,
+  "max_drawdown_r": 1.1429,
+  "weeks": 0.8746726190476191,
   "best_r": 4.0328,
-  "worst_r": 1.274,
+  "worst_r": -1.1429,
   "readiness": {
    "trades": false,
    "weeks": false,
-   "ci_lower_positive": true,
-   "profit_factor": false
+   "ci_lower_positive": false,
+   "profit_factor": true
   },
   "targets": {
    "min_trades": 150,
@@ -38,11 +38,11 @@
    "total_r": 1.274
   },
   "deviation_reclaim": {
-   "n": 3,
-   "win_rate": 1.0,
-   "avg_r": 2.599766666666667,
-   "profit_factor": null,
-   "total_r": 7.799300000000001
+   "n": 4,
+   "win_rate": 0.75,
+   "avg_r": 1.6641000000000001,
+   "profit_factor": 6.824131595065185,
+   "total_r": 6.6564000000000005
   }
  },
  "by_symbol": {
@@ -61,17 +61,17 @@
    "total_r": 6.0817
   },
   "BTC/USDT": {
-   "n": 1,
-   "win_rate": 1.0,
-   "avg_r": 1.7176,
-   "profit_factor": null,
-   "total_r": 1.7176
+   "n": 2,
+   "win_rate": 0.5,
+   "avg_r": 0.28735,
+   "profit_factor": 1.5028436433633738,
+   "total_r": 0.5747
   }
  },
  "counts": {
-  "CLOSED": 4,
+  "CLOSED": 5,
   "OPEN": 0,
-  "WAITING": 1,
+  "WAITING": 0,
   "CANCELLED": 13
  },
  "assumptions": "Simulasi konservatif (stop dulu bila ambigu), fee/slippage kasar, entry pending kedaluwarsa. Bukan hasil eksekusi nyata.",
@@ -411,11 +411,11 @@
    "tp1": 59751.947,
    "tp2": 59117.894,
    "score": 6.0,
-   "status": "WAITING",
-   "outcome": "",
-   "r": null,
-   "fill_time": null,
-   "exit_time": null,
+   "status": "CLOSED",
+   "outcome": "LOSS",
+   "r": -1.1429,
+   "fill_time": "2026-11-25 23:30:00+00:00",
+   "exit_time": "2026-11-26 00:00:00+00:00",
    "reason": ""
   }
  ]
