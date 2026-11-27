@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-26T23:43:47+00:00",
+ "updated": "2026-11-27T08:07:08+00:00",
  "stats": {
-  "n": 5,
+  "n": 6,
   "status": "UNVERIFIABLE",
   "wins": 4,
-  "losses": 1,
-  "win_rate": 0.8,
-  "avg_r": 1.58608,
-  "std_r": 1.8549032581242613,
-  "total_r": 7.9304,
-  "profit_factor": 7.938839793507743,
-  "sqn": 1.9120041340265297,
-  "ci_low": -0.039814392525861386,
-  "ci_high": 3.2119743925258613,
-  "max_drawdown_r": 1.1429,
-  "weeks": 0.8746726190476191,
+  "losses": 2,
+  "win_rate": 0.6666666666666666,
+  "avg_r": 1.1312499999999999,
+  "std_r": 1.9984381028693385,
+  "total_r": 6.7875,
+  "profit_factor": 3.9694198967538714,
+  "sqn": 1.3865754798934804,
+  "ci_low": -0.4678335206247364,
+  "ci_high": 2.730333520624736,
+  "max_drawdown_r": 2.2858,
+  "weeks": 1.025353835978836,
   "best_r": 4.0328,
   "worst_r": -1.1429,
   "readiness": {
@@ -31,11 +31,11 @@
  },
  "by_trigger": {
   "breakout_retest": {
-   "n": 1,
-   "win_rate": 1.0,
-   "avg_r": 1.274,
-   "profit_factor": null,
-   "total_r": 1.274
+   "n": 2,
+   "win_rate": 0.5,
+   "avg_r": 0.06555,
+   "profit_factor": 1.1147081984425584,
+   "total_r": 0.1311
   },
   "deviation_reclaim": {
    "n": 4,
@@ -66,10 +66,17 @@
    "avg_r": 0.28735,
    "profit_factor": 1.5028436433633738,
    "total_r": 0.5747
+  },
+  "TRUMP/USDT": {
+   "n": 1,
+   "win_rate": 0.0,
+   "avg_r": -1.1429,
+   "profit_factor": 0.0,
+   "total_r": -1.1429
   }
  },
  "counts": {
-  "CLOSED": 5,
+  "CLOSED": 6,
   "OPEN": 0,
   "WAITING": 1,
   "CANCELLED": 13
@@ -430,6 +437,25 @@
    "tp1": 0.855,
    "tp2": 0.812,
    "score": 7.0,
+   "status": "CLOSED",
+   "outcome": "LOSS",
+   "r": -1.1429,
+   "fill_time": "2026-11-27 00:00:00+00:00",
+   "exit_time": "2026-11-27 02:00:00+00:00",
+   "reason": ""
+  },
+  {
+   "signal_id": "7de8aa94087c",
+   "asof": "2026-11-27T08:06:37+00:00",
+   "symbol": "AXS/USDT",
+   "direction": "SHORT",
+   "trigger": "deviation_reclaim",
+   "tf": "1h",
+   "entry": 0.661,
+   "stop": 0.6656270000000001,
+   "tp1": 0.608,
+   "tp2": 0.6056865,
+   "score": 8.0,
    "status": "WAITING",
    "outcome": "",
    "r": null,
