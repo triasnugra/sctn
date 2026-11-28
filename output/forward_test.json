@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-27T18:50:31+00:00",
+ "updated": "2026-11-28T01:53:18+00:00",
  "stats": {
-  "n": 6,
+  "n": 7,
   "status": "UNVERIFIABLE",
   "wins": 4,
-  "losses": 2,
-  "win_rate": 0.6666666666666666,
-  "avg_r": 1.1312499999999999,
-  "std_r": 1.9984381028693385,
-  "total_r": 6.7875,
-  "profit_factor": 3.9694198967538714,
-  "sqn": 1.3865754798934804,
-  "ci_low": -0.4678335206247364,
-  "ci_high": 2.730333520624736,
-  "max_drawdown_r": 2.2858,
-  "weeks": 1.025353835978836,
+  "losses": 3,
+  "win_rate": 0.5714285714285714,
+  "avg_r": 0.8175714285714285,
+  "std_r": 2.004217744087275,
+  "total_r": 5.723,
+  "profit_factor": 2.7082052353520583,
+  "sqn": 1.079269298664394,
+  "ci_low": -0.6671738541703621,
+  "ci_high": 2.3023167113132192,
+  "max_drawdown_r": 3.3503,
+  "weeks": 1.1391352513227513,
   "best_r": 4.0328,
   "worst_r": -1.1429,
   "readiness": {
@@ -31,11 +31,11 @@
  },
  "by_trigger": {
   "breakout_retest": {
-   "n": 2,
-   "win_rate": 0.5,
-   "avg_r": 0.06555,
-   "profit_factor": 1.1147081984425584,
-   "total_r": 0.1311
+   "n": 3,
+   "win_rate": 0.3333333333333333,
+   "avg_r": -0.3111333333333333,
+   "profit_factor": 0.5771495877502946,
+   "total_r": -0.9334
   },
   "deviation_reclaim": {
    "n": 4,
@@ -68,15 +68,15 @@
    "total_r": 0.5747
   },
   "TRUMP/USDT": {
-   "n": 1,
+   "n": 2,
    "win_rate": 0.0,
-   "avg_r": -1.1429,
+   "avg_r": -1.1037,
    "profit_factor": 0.0,
-   "total_r": -1.1429
+   "total_r": -2.2074
   }
  },
  "counts": {
-  "CLOSED": 6,
+  "CLOSED": 7,
   "OPEN": 1,
   "WAITING": 3,
   "CANCELLED": 13
@@ -513,10 +513,29 @@
    "tp1": 0.838,
    "tp2": 0.812,
    "score": 7.0,
+   "status": "CLOSED",
+   "outcome": "LOSS",
+   "r": -1.0645,
+   "fill_time": "2026-11-27 18:50:06+00:00",
+   "exit_time": "2026-11-27 19:30:00+00:00",
+   "reason": ""
+  },
+  {
+   "signal_id": "c183f13f3fd2",
+   "asof": "2026-11-28T01:52:56+00:00",
+   "symbol": "AXS/USDT",
+   "direction": "SHORT",
+   "trigger": "fib_075",
+   "tf": "1h",
+   "entry": 0.654,
+   "stop": 0.6600291247260899,
+   "tp1": 0.626,
+   "tp2": 0.608,
+   "score": 6.0,
    "status": "OPEN",
    "outcome": "",
-   "r": -0.0645,
-   "fill_time": "2026-11-27 18:50:06+00:00",
+   "r": -0.1085,
+   "fill_time": "2026-11-28 01:52:56+00:00",
    "exit_time": null,
    "reason": ""
   }
