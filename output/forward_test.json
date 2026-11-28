@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T01:53:18+00:00",
+ "updated": "2026-11-28T10:12:06+00:00",
  "stats": {
   "n": 7,
   "status": "UNVERIFIABLE",
@@ -78,8 +78,8 @@
  "counts": {
   "CLOSED": 7,
   "OPEN": 1,
-  "WAITING": 3,
-  "CANCELLED": 13
+  "WAITING": 2,
+  "CANCELLED": 14
  },
  "assumptions": "Simulasi konservatif (stop dulu bila ambigu), fee/slippage kasar, entry pending kedaluwarsa. Bukan hasil eksekusi nyata.",
  "trades": [
@@ -456,11 +456,30 @@
    "tp1": 0.608,
    "tp2": 0.6056865,
    "score": 8.0,
-   "status": "WAITING",
+   "status": "CANCELLED",
    "outcome": "",
    "r": null,
    "fill_time": null,
    "exit_time": null,
+   "reason": "pending kedaluwarsa"
+  },
+  {
+   "signal_id": "a7b405c28028",
+   "asof": "2026-11-27T18:50:06+00:00",
+   "symbol": "TRUMP/USDT",
+   "direction": "SHORT",
+   "trigger": "breakout_retest",
+   "tf": "1h",
+   "entry": 0.861,
+   "stop": 0.8743529736380219,
+   "tp1": 0.838,
+   "tp2": 0.812,
+   "score": 7.0,
+   "status": "CLOSED",
+   "outcome": "LOSS",
+   "r": -1.0645,
+   "fill_time": "2026-11-27 18:50:06+00:00",
+   "exit_time": "2026-11-27 19:30:00+00:00",
    "reason": ""
   },
   {
@@ -502,25 +521,6 @@
    "reason": ""
   },
   {
-   "signal_id": "a7b405c28028",
-   "asof": "2026-11-27T18:50:06+00:00",
-   "symbol": "TRUMP/USDT",
-   "direction": "SHORT",
-   "trigger": "breakout_retest",
-   "tf": "1h",
-   "entry": 0.861,
-   "stop": 0.8743529736380219,
-   "tp1": 0.838,
-   "tp2": 0.812,
-   "score": 7.0,
-   "status": "CLOSED",
-   "outcome": "LOSS",
-   "r": -1.0645,
-   "fill_time": "2026-11-27 18:50:06+00:00",
-   "exit_time": "2026-11-27 19:30:00+00:00",
-   "reason": ""
-  },
-  {
    "signal_id": "c183f13f3fd2",
    "asof": "2026-11-28T01:52:56+00:00",
    "symbol": "AXS/USDT",
@@ -534,7 +534,7 @@
    "score": 6.0,
    "status": "OPEN",
    "outcome": "",
-   "r": -0.1085,
+   "r": 3.5405,
    "fill_time": "2026-11-28 01:52:56+00:00",
    "exit_time": null,
    "reason": ""
